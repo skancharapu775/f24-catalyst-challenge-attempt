@@ -23,6 +23,13 @@ const todoList = [];
  */
 function addAndPrintTodos() {
     // YOUR CODE HERE
+    todoList.push("Apply to y/cs");
+    todoList.push("Pick out my classes");
+    todoList.push("Have dinner with my friends");
+
+    for (let i = 0; i < todoList.length; i++) {
+        console.log(todoList[i]);
+    }
 }
 
 /**
@@ -31,7 +38,7 @@ function addAndPrintTodos() {
  * we do it here
  */
 function mainTask1a() {
-    addAndPrintTodos()
+    addAndPrintTodos();
 }
 
 // This bit of code ensures that a main method exists! If it doesn't, then it throws an error
